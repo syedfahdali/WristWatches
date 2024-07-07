@@ -9,13 +9,14 @@ import uploadRoutes from './routes/uploadRoutes.js'
 import { notFound,errorHandler } from "./middleware/errorMiddleware.js"
 import cookieParser from "cookie-parser"
 import path from 'path';
- 
+import cors from 'cors';
+
 dotenv.config()
 connectDB()
 
 const app = express()
 const port = process.env.PORT || 5000
-const cors = require('cors');
+
 
 
 
