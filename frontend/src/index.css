@@ -1,0 +1,260 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#basic-nav-dropdown {
+  color: white;
+}
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.productDetailsPrice {
+  margin-top: 200px;
+  margin-left: 50px;
+}
+
+.checkoutTabs {
+  display: flex;
+  justify-content: center;
+}
+
+.searchBox {
+  margin-left: 100px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+
+
+.carouselImage {
+  width: 100%;
+  height: 500px;
+}
+
+.propagelist {
+  padding: 15px !important;
+  width: 300px !important;
+}
+
+
+.banner1pic{
+
+  position: relative;
+   
+}
+
+
+.banner1des{
+
+  width: 300px;
+  position: absolute;
+  margin-left: 500px;
+  top:40px
+}
+
+
+.wristsLogo{
+
+  font-family: 'Bungee Inline', cursive;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .productDetailsPrice {
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+
+  .protext {
+    display: none;
+  }
+
+ main{
+
+  margin-top: 230px !important;
+ }
+
+  .carouselImage {
+    width: 100%;
+    height: 260px;
+  }
+
+  .wristsLogo{
+
+    font-size: 14px;
+  }
+
+
+  
+
+  .propagelist {
+    padding: 15px !important;
+    width: 250px !important;
+  }
+
+  .searchBox {
+    width:200px;
+    margin-left: 15px;
+    margin-top: 5px;
+  }
+
+  .searchBTN :hover {
+    background-color: red;
+    color: "white";
+  }
+
+  .searchBTN {
+    width: 70px;
+  }
+
+  .navbarz {
+    width: 100% !important;
+  }
+
+  .cartImage {
+    height: 50px !important;
+    width: 60px !important;
+  }
+
+  .itemcartname {
+    margin-left: 10px;
+  }
+  .cartSubtotal {
+    margin: 60px !important;
+  }
+
+  #basic-nav-dropdown {
+    color: white;
+  }
+
+  .alertBox {
+    width: 50% !important;
+    margin-left: 80px;
+    margin-top: 60px !important;
+  }
+
+  .orderDBox {
+    text-align: center;
+  }
+
+  .orderbox {
+    width: 90%;
+  }
+
+  .loginBtn {
+    margin: 10px auto !important;
+  }
+
+  a:-webkit-any-link {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .showOrderBox {
+    text-align: center;
+    margin-top: 50px;
+    width: 90%;
+    margin-left: -30px;
+  }
+
+  .orderBoxName {
+    font-size: 14px;
+  }
+
+  .orderBoxQty {
+    font-size: 10px;
+  }
+
+  .cartHead{
+
+    text-align: center;
+  }
+
+  .logo img{
+
+    margin-left: 40px;
+  }
+
+  footer {
+    width: 100%;
+  }
+
+
+  .banner1pic{
+
+    position: relative;
+     
+  }
+
+  .pic1caro{
+
+    height: 200px !important;
+  }
+
+  .topProCaro{
+
+    margin-top: 130px;
+  }
+
+  .topProCarop{
+
+    display: none;
+  }
+  
+  
+  .banner1des{
+  
+    width: 300px;
+    position: absolute;
+    margin-left: 500px;
+    top:40px
+  }
+
+
+  .banner1pic{
+
+    position: relative;
+     
+  }
+  
+  
+  .banner1des{
+  
+    width: 200px;
+    position: absolute;
+    margin-left: 100px;
+    top:40px
+  }
+  
+}

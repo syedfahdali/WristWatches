@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.98db6203.css",
+    "main.js": "/static/js/main.77416ae0.js",
+    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
+    "static/media/output-onlinegiftools.gif": "/static/media/output-onlinegiftools.ecfd1aeec159be43b9c2.gif",
+    "static/media/banner-4.avif": "/static/media/banner-4.df960712920af8ed2ba0.avif",
+    "static/media/banner-2.jpg": "/static/media/banner-2.18902994af7873187251.jpg",
+    "static/media/banner-3.jpg": "/static/media/banner-3.e8f5a0b23b0a1b60c8b4.jpg",
+    "static/media/wristWorksRemove.png": "/static/media/wristWorksRemove.6406a4ea5461e3856473.png",
+    "static/media/watttch24.png": "/static/media/watttch24.4a98455f69e62a267100.png",
+    "index.html": "/index.html",
+    "main.98db6203.css.map": "/static/css/main.98db6203.css.map",
+    "main.77416ae0.js.map": "/static/js/main.77416ae0.js.map",
+    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98db6203.css",
+    "static/js/main.77416ae0.js"
+  ]
+}
