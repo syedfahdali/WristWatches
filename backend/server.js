@@ -9,12 +9,14 @@ import uploadRoutes from './routes/uploadRoutes.js'
 import { notFound,errorHandler } from "./middleware/errorMiddleware.js"
 import cookieParser from "cookie-parser"
 import path from 'path';
-
+ 
 dotenv.config()
 connectDB()
 
 const app = express()
 const port = process.env.PORT || 5000
+const cors = require('cors');
+
 
 
 //Body Parser Middleware 
@@ -35,6 +37,17 @@ app.use('/api/upload',uploadRoutes)
 
 const __dirname=path.resolve();
 app.use('/uploads', express.static(path.join(__dirname, '/uploads')));
+app.use(cors(
+  {
+      origin: ["wrist-watches-frontend","localhost:3000"],
+      methods: ["POST", "GET"],
+      credentials: true
+  }
+));
+
+app.get("/", (req, res) => {
+res.json("Hello");
+})
 
 
 app.get('/api/config/paypal',(req,res)=>res.send({clientId:process.env.PAYPAL_CLIENT_ID}))
